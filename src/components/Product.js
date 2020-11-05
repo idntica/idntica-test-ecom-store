@@ -94,6 +94,7 @@ const ProductWrapper = styled.div`
 .img-container{
     position: relative;
     overflow: hidden;
+    width: 50px;
 
 }
 .card-img-top{
@@ -101,7 +102,8 @@ transition: all 1s linear;
 
 }
 .img-container:hover .card-img-top{
-    transform: scale(1,2);
+     
+    transform: scale(1.5);
 }
 .cart-btn{
     position: absolute;
